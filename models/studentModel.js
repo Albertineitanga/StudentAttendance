@@ -4,10 +4,10 @@ const mysql = require('mysql');
 // Create a MySQL connection pool
 const pool = mysql.createPool({
     connectionLimit: 10,
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'attendance_management_system'
+    host: 'bfs6q4ldshqguxgwtnmj-mysql.services.clever-cloud.com',
+    user: 'uglkzhrissceuzk4',
+    password: 'j2XjJo2i7icepkRxtkFJ',
+    database: 'bfs6q4ldshqguxgwtnmj'
 });
 
 // Function to get all students from the database
